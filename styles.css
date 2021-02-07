@@ -4,7 +4,7 @@
     margin: 0px;
     padding: 0px;
     position: relative;
-    background-color: blanchedalmond;
+    background-color: whitesmoke;
     
 }
 .main {
@@ -22,26 +22,32 @@
     position: fixed;
     top: 0px;
     width: 100vw;
-    text-align: center;
-    background-color: blanchedalmond;
+    text-align: right;
+    vertical-align: auto;
+    background-color: black;
     
-    padding: 20px;
+    padding-block: 30px;
     margin: 0px;
 }
 
 .nav a {
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    
-    color: black;
-    text-align: center;
     text-decoration: none;
+    vertical-align: auto;
     font-size: 30px;
-    
-    padding: 24px 27px;
+    color: whitesmoke;
+    padding: 27px;
     margin: 0px;
 }
 .nav a:hover {
     color: #888;
+}
+.nav img {
+    height:7%;
+    width: 7%;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
 }
 
 .bio {
@@ -50,7 +56,7 @@
     height: 100vh;
     font-family: monospace;
     text-align: center;
-    background-color: blanchedalmond;
+    background-color: whitesmoke;
 }
 .bio h1 {
     padding: 20px;
