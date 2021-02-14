@@ -90,7 +90,6 @@
     margin-bottom: 4%;
     background: whitesmoke;
     padding: 2%;
-    
 }
 
 #container h1 {
@@ -107,6 +106,10 @@
     display: flex;
     justify-content: center;
     text-align: center;
+}
+.projects img {
+    width: 30%;
+    height: 30%;
 }
 footer {
     color: whitesmoke;
